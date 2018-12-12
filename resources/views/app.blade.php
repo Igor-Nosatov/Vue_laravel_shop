@@ -9,7 +9,6 @@
     <link href="{{ mix('css/all.css') }}" type="text/css" rel="stylesheet" />
     <meta name="csrf-token" value="{{ csrf_token() }}" />
 </head>
-
 <body>
     <div id="app">
     </div>

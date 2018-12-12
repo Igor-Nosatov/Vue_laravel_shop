@@ -30,19 +30,34 @@ const routes = [
       component: HomeComponent
   },
   {
-      name: 'create',
-      path: '/create',
-      component: CreateComponent
+      name: 'cart',
+      path: '/cart',
+      component: CartComponent
   },
   {
-      name: 'posts',
-      path: '/posts',
-      component: IndexComponent
+      name: 'blog',
+      path: '/blog',
+      component: BlogComponent
   },
   {
-      name: 'edit',
-      path: '/edit/:id',
-      component: EditComponent
+      name: 'blogsingle',
+      path: '/blog/:id',
+      component: BlogSingleComponent
+  },
+  {
+      name: 'contact',
+      path: '/contact',
+      component: ContactComponent
+  },
+  {
+      name: 'product',
+      path: '/product/:id',
+      component: ProductComponent
+  },
+  {
+      name: 'shop',
+      path: '/shop/:id',
+      component: ShopComponent
   }
 ];
 
