@@ -1,6 +1,6 @@
 <template>
   <div class="super_container">
-    <header></header>
+    <header-block></header-block>
       <router-view></router-view>
       <subscript></subscript>
     <footer-block></footer-block>
